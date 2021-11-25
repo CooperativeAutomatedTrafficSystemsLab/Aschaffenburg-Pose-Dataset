@@ -1,4 +1,6 @@
 # Aschaffenburg Pose Dataset (APD) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5724486.svg)](https://doi.org/10.5281/zenodo.5724486)
+<img src="img/pose_sequence.svg" align="right" width="300"/>
+
 This repository contains Python code for loading and filtering the Aschaffenburg Pose Dataset.
 The dataset itself and a description can be found at **[Zenodo]**.
 It contains trajectories as well as body poses of pedestrians and cyclists in road traffic
