@@ -56,7 +56,7 @@ If you find this dataset useful, please cite this paper (and refer the data as A
 - **[More datasets]**
 
 [Pedestrians and Cyclists in Road Traffic: Trajectories, 3D Poses and Semantic Maps]: https://doi.org/10.5281/zenodo.4898838
-[Cyclist Actions: Optical Flow Sequences and Trajectories]: 10.5281/zenodo.3734038
+[Cyclist Actions: Optical Flow Sequences and Trajectories]: https://doi.org/10.5281/zenodo.3734038
 [Cyclist Actions: Motion History Images and Trajectories]: https://doi.org/10.5281/zenodo.4080940
 [More datasets]: https://www.th-ab.de/ueber-uns/organisation/labor/kooperative-automatisierte-verkehrssysteme/trajectory-dataset/
 
