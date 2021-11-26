@@ -8,6 +8,16 @@ recorded in Aschaffenburg, Germany. It is appropriate for training and testing m
 trajectory forecasting and intention prediction of vulnerable road users (VRUs) based on
 the past trajectory and body poses.
 
+The body posture of the pedestrians and cyclists is available in the form of 2D and 3D poses.
+The 2D poses contain joint positions in an image coordinate system, while the 3D poses contain
+actual three-dimensional positions. The joints of the poses are shown in the picture below.
+The left skeleton shows the joints of the 2D poses and the right one shows the joints of the
+3D poses. A detailed description and evaluation of the pose estimation method can be found in
+[1]. In addition to the trajectories and the poses, manually created labels of the respective
+motion states are included.
+
+<img src="img/skeleton.svg" width="750"/>
+
 [Zenodo]: https://doi.org/10.5281/zenodo.5724486
 
 ## Usage
@@ -33,3 +43,28 @@ optional arguments:
                         'validation', 'test']
 ```
 [here]: https://doi.org/10.5281/zenodo.5724486
+
+## Citation
+If you find this dataset useful, please cite this paper (and refer the data as Aschaffenburg Pose Dataset or APD):
+
+> Kress, V. ; Zernetsch, S. ; Doll, K. ; Sick, B. : Pose Based Trajectory Forecast of Vulnerable Road Users Using Recurrent Neural Networks. In: Pattern Recognition. ICPR International Workshops and Challenges, Springer International Publishing, 2020, pp. 57-71
+
+## Similar Datasets
+- **[Pedestrians and Cyclists in Road Traffic: Trajectories, 3D Poses and Semantic Maps]**
+- **[Cyclist Actions: Optical Flow Sequences and Trajectories]**
+- **[Cyclist Actions: Motion History Images and Trajectories]**
+- **[More datasets]**
+
+[Pedestrians and Cyclists in Road Traffic: Trajectories, 3D Poses and Semantic Maps]: https://doi.org/10.5281/zenodo.4898838
+[Cyclist Actions: Optical Flow Sequences and Trajectories]: 10.5281/zenodo.3734038
+[Cyclist Actions: Motion History Images and Trajectories]: https://doi.org/10.5281/zenodo.4080940
+[More datasets]: https://www.th-ab.de/ueber-uns/organisation/labor/kooperative-automatisierte-verkehrssysteme/trajectory-dataset/
+
+## Acknowledgment
+This work was supported by “Zentrum Digitalisierung.Bayern”. In addition, the work is
+backed by the project DeCoInt2 , supported by the German Research Foundation (DFG)
+within the priority program SPP 1835: “Kooperativ interagierende Automobile”, grant
+numbers DO 1186/1-2 and SI 674/11-2.
+
+## References
+> [1] Kress, V. ; Jung, J. ; Zernetsch, S. ; Doll, K. ; Sick, B. : Human Pose Estimation in Real Traffic Scenes. In: IEEE Symposium Series on Computational Intelligence (SSCI), 2018, pp. 518–523, doi: 10.1109/SSCI.2018.8628660
